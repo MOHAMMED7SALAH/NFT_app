@@ -93,16 +93,10 @@ class _ImageTile extends StatelessWidget {
             tag: image,
             child:
             
-            Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(200),
-          
-          ),
-          child: Image.asset(
-              image,
-              width: 130,
-              
-            ),
+            Image.asset(
+            image,
+            width: 130,
+                
           ),
         ));
   }
